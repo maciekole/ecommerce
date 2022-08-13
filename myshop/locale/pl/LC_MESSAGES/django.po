@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-14 01:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: cart/forms/cart_form.py:9
+msgid "Quantity"
+msgstr "Ilosc"
+
+#: coupons/forms/coupon_form.py:6
+msgid "Coupon"
+msgstr "Kupon"
+
+#: myshop/settings.py:155
+msgid "English"
+msgstr "Angielski"
+
+#: myshop/settings.py:156
+msgid "Spanish"
+msgstr "Hiszpanski"
+
+#: myshop/settings.py:157
+msgid "Polish"
+msgstr "Polski"
+
+#: myshop/urls.py:24
+msgid "admin/"
+msgstr ""
+
+#: myshop/urls.py:25
+msgid "cart/"
+msgstr ""
+
+#: myshop/urls.py:26
+msgid "orders/"
+msgstr ""
+
+#: myshop/urls.py:27
+msgid "payment/"
+msgstr ""
+
+#: myshop/urls.py:28
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "Kupon"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr ""
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr ""
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr "Sklep"
+
+#: shop/templates/shop/base.html:19
+msgid "Your cart"
+msgstr "Koszyk"
+
+#: shop/templates/shop/base.html:21
+#, python-format
+msgid ""
+"\n"
+"                                %(items)s item, $%(total)s\n"
+"                            "
+msgid_plural ""
+"\n"
+"                                %(items)s items, $%(total)s\n"
+"                            "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: shop/templates/shop/base.html:28
+msgid "Your cart is empty."
+msgstr "Koszyk jest pusty."
+
+#: shop/templates/shop/product/detail.html:20
+msgid "Add to cart"
+msgstr "Dodaj do koszyka"
